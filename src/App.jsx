@@ -36,7 +36,7 @@ function App() {
 
       <div className="my-4 d-flex gap-2">
         {webLanguages.map((language, index) => (
-          <button key={index} onClick={() => setLanguage(language)} className={`btn ${language.language === language.language ? 'btn-primary' : 'btn-outline-secondary'}`}>{language.language}</button>
+          <button key={index} onClick={() => setLanguage(language)} className='btn btn-primary'>{language.language}</button>
         ))}
       </div>
 
